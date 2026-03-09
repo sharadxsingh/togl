@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #F7F6F3;
+  --card: #FFFFFF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
